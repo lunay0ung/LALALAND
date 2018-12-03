@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="#FFFFFF"/>
+
+    <!--
+
+    <stroke android:width="8dp"
+            android:color="#ff0000"
+            android:dashWidth="20dp"
+            android:dashGap="20dp" />
+
+    -->
+    <corners android:radius="10dp"/>
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+
+</shape>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:shape="rectangle" android:padding="10dp">-->
+    <!--<solid android:color="#a0696969"/>-->
+    <!--<corners android:bottomRightRadius="12dp"-->
+    <!--android:bottomLeftRadius="12dp"-->
+    <!--android:topLeftRadius="12dp"-->
+    <!--android:topRightRadius="12dp"/>-->
+    <!--<stroke android:width="3dp"-->
+    <!--android:color="#FFFFFFFF"-->
+    <!--/>-->
+    <!--</shape>-->
+
+    <!--출처: http://ingeni.tistory.com/entry/Android-둥근-모서리-만들기 [ingeni]-->

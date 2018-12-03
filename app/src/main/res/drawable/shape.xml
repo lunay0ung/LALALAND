@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle" >
+    <solid android:color="#FFFFFF" />
+    <corners
+        android:radius="12dp" />
+
+</shape>
+
+
+    <!--출처: http://wimir-dev.tistory.com/37 [[위미르 개발팀] Android, iOS , Web 제작]-->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- solid background -->
+            <solid android:color="#353866"/>
+            <!-- draw a border around rectangle shape -->
+            <stroke
+                android:color="#353866"
+                android:width="1dp"
+                />
+            <corners android:radius="15dp"/>
+
+            <gradient
+                android:angle="45"
+                android:endColor="@color/myNavy"
+                android:startColor="@color/bg_gradient_start"
+                android:type="linear" />
+        </shape>
+    </item>
+</selector>

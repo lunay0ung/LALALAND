@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'kotlin-android'
+//apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.example.luna.lalaland"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+
+    implementation 'com.android.support:support-core-utils:28.0.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.github.nhancv:nc-android-webrtcpeer:2.1.0'
+
+
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+
+    //Android annotation
+    annotationProcessor "org.androidannotations:androidannotations:4.4.0"
+    implementation 'org.androidannotations:androidannotations-api:4.4.0'
+    //Permission
+    implementation 'com.github.nhancv:nc-android-npermission:1.4'
+    //Mosby mvp lib
+    implementation 'com.hannesdorfmann.mosby:mvp:2.0.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //Async
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'io.reactivex:rxjava:1.3.0'
+    //코틀린
+    //implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.2.41'
+    // kapt 'com.google.dagger:dagger-compiler:2.8'
+    //kapt 'com.android.databinding:compiler:3.1.4'
+
+    //레트로핏
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+
+    //서버와의 통신 현황 보기
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+
+    //nodejs 서버와 통신하기 위함
+    implementation group: 'io.socket', name: 'socket.io-client', version: '1.0.0'
+
+    //exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.9.0'
+
+    //mongodb
+    implementation 'org.mongodb:mongo-java-driver:3.8.2'
+
+    //권한 설정 도움 라이브러리
+    implementation 'com.karumi:dexter:5.0.0'
+
+    //뷰바인딩
+    implementation 'com.jakewharton:butterknife:9.0.0-rc1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc1'
+
+    //이미지 로딩 라이브러리 글라이드
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+
+    //블록체인 지갑
+    implementation 'org.web3j:core:3.3.1-android'
+
+    //qr 코드 생성/리더기
+    compile 'com.google.zxing:core:3.3.0'
+    compile 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+
+    //차트
+    implementation 'com.github.AnyChart:AnyChart-Android:1.0.5'
+
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.luna.lalaland.All.BuySongs_Kakaopay.BuySongsActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <include layout="@layout/toolbar"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_buySongs"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</android.support.constraint.ConstraintLayout>

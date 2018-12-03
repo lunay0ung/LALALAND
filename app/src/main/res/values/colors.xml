@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--툴바 컬러-->
+    <color name="colorPrimary">#F8FAFF</color>
+    <!--상태표시줄 컬러-->
+    <color name="colorPrimaryDark">#AAABD3</color>
+    <!--floating action button컬러-->
+    <color name="colorAccent">#AAABD3</color>
+
+    <!--앱 메인컬러-->
+    <!--참고: https://www.webdesignrankings.com/resources/lolcolors/-->
+
+    <!--바텀네비게이션뷰에 사용할 예정-->
+    <color name="myNavy">#353866</color>
+
+    <color name="myWhite">#F8FAFF</color>
+    <color name="mylightPurple">#cba6c3</color>
+    <color name="myPurple">#aaabd3</color>
+
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+</resources>
